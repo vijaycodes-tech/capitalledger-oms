@@ -23,16 +23,10 @@
         <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
     </properties>
 
+    <!-- ONLY compile modules we have actually created so far -->
     <modules>
         <module>shared-library</module>
         <module>discovery-service</module>
-        <module>config-server</module>
-        <module>api-gateway</module>
-        <module>identity-service</module>
-        <module>client-service</module>
-        <module>finance-service</module>
-        <module>reporting-service</module>
-        <module>notification-service</module>
     </modules>
 
     <dependencyManagement>
